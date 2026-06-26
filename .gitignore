@@ -1,0 +1,24 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache & Compilation files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local Test Data (Prevents committing private photos)
+samples/
+
+# Generated Calibration Reports (Contains copies of cropped/original photos)
+report/
+
+# IDE / System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
