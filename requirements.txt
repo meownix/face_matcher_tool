@@ -1,3 +1,4 @@
 opencv-python<4.11
 numpy<2
-tflite-runtime
+tflite-runtime; sys_platform != "darwin"
+tensorflow; sys_platform == "darwin"
